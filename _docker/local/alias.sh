@@ -1,0 +1,7 @@
+alias sy.exec="docker exec -it app"
+alias sy="sy.exec symfony"
+alias sy.composer="sy.exec composer"
+alias sy.php="sy.exec php"
+alias sy.dump="sy.composer dump"
+alias sy.update="sy.composer update"
+alias sy.console="sy.exec bin/console"
