@@ -47,6 +47,16 @@ Utilize o comando abaixo para acessar o container:
 docker exec -it php-fpm zsh
 ```
 
+ou se preferir utilizar alias carregados no arquivo `alias.sh`:
+
+```bash
+cp _docker/local/alias.sh .
+```
+
+```bash
+source alias.sh
+```
+
 ## Utilizando o container
 
 Foi adicionado o `zsh` para facilitar a utilização do container, junto de alguns plugins para melhorar a experiência.
