@@ -54,7 +54,7 @@ cp _docker/local/alias.sh .
 ```
 
 ```bash
-source alias.sh
+source alias.sh && cat alias.sh
 ```
 
 ## Utilizando o container
