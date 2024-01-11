@@ -88,7 +88,7 @@ COPY .zshrc /home/dev/.zshrc
 WORKDIR /var/www
 
 EXPOSE 9000
-EXPOSE 9003
+#EXPOSE 9003
 EXPOSE 8000
 
 CMD ["php-fpm"]
